@@ -14,13 +14,7 @@ gem 'bootstrap-sass'
 
 group :development, :test do
 	gem 'sqlite3'
-end
-
-group :development, :test do
   gem 'byebug'
-end
-
-group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
